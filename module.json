@@ -1,0 +1,387 @@
+{
+  "id": "warfare-lore",
+  "title": "Warfare Lore",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Molotgor",
+      "email": "molotog@gmail.com",
+      "discord": "molotgor"
+    }
+  ],
+  "flags": {
+    "warfare-lore": {
+      "pf2e-homebrew": {
+        "spellTraits": {
+          "erudition": {
+            "label": "Erudition",
+            "description": "An erudition is a scholastic method you have reviewed and practiced sufficiently to carry out quickly, usually in the middle of combat."
+          }
+        },
+        "featTraits": {
+          "erudite-warrior": "Erudite Warrior",
+          "fallback": {
+            "label": "Fallback",
+            "description": "A feat with this trait adds effects to your fallback outcome."
+          }
+        }
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "erudite-warrior-class",
+      "label": "Erudite Warrior - Class",
+      "path": "packs/erudite-warrior-class",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "erudite-warrior-featsfeatures",
+      "label": "Erudite Warrior - Feats/Features",
+      "path": "packs/erudite-warrior-featsfeatures",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "erudite-warrior-eruditions",
+      "label": "Erudite Warrior - Eruditions",
+      "path": "packs/erudite-warrior-eruditions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-backgrounds",
+      "label": "WL - Backgrounds",
+      "path": "packs/wl-backgrounds",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-finishing-instinct",
+      "label": "WL - Finishing Instinct",
+      "path": "packs/wl-finishing-instinct",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-apostle",
+      "label": "WL - Apostle",
+      "path": "packs/wl-apostle",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-fighter-feats",
+      "label": "WL - Fighter Feats",
+      "path": "packs/wl-fighter-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-mindshot",
+      "label": "WL - Mindshot",
+      "path": "packs/wl-mindshot",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-waypoint",
+      "label": "WL - Waypoint",
+      "path": "packs/wl-waypoint",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-assessor",
+      "label": "WL - Assessor",
+      "path": "packs/wl-assessor",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-battle-reactor",
+      "label": "WL - Battle Reactor",
+      "path": "packs/wl-battle-reactor",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-intervention",
+      "label": "WL - Intervention",
+      "path": "packs/wl-intervention",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-outstep",
+      "label": "WL - Outstep",
+      "path": "packs/wl-outstep",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-roughwalker",
+      "label": "WL - Roughwalker",
+      "path": "packs/wl-roughwalker",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-surpriser",
+      "label": "WL - Surpriser",
+      "path": "packs/wl-surpriser",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-goader",
+      "label": "WL - Goader",
+      "path": "packs/wl-goader",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-battlemap",
+      "label": "WL - Battlemap",
+      "path": "packs/wl-battlemap",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "erudite-warrior-archetype",
+      "label": "Erudite Warrior - Archetype",
+      "path": "packs/erudite-warrior-archetype",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-backstabber",
+      "label": "WL - Backstabber",
+      "path": "packs/wl-backstabber",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-wideswinger",
+      "label": "WL - Wideswinger",
+      "path": "packs/wl-wideswinger",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-concealer",
+      "label": "WL - Concealer",
+      "path": "packs/wl-concealer",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-instigator",
+      "label": "WL - Instigator",
+      "path": "packs/wl-instigator",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-parrier",
+      "label": "WL - Parrier",
+      "path": "packs/wl-parrier",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-swordbreaker-defender",
+      "label": "WL - Swordbreaker Defender",
+      "path": "packs/wl-swordbreaker-defender",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-warfare-feats",
+      "label": "WL - Warfare Feats",
+      "path": "packs/wl-warfare-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-honed-edge",
+      "label": "WL - Honed Edge",
+      "path": "packs/wl-honed-edge",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-spells",
+      "label": "WL - Spells",
+      "path": "packs/wl-spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-actions",
+      "label": "WL - Actions",
+      "path": "packs/wl-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-journals",
+      "label": "WL - Journals",
+      "path": "packs/wl-journals",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-effects",
+      "label": "WL - Effects",
+      "path": "packs/wl-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-items",
+      "label": "WL - Items",
+      "path": "packs/wl-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
