@@ -4,7 +4,7 @@
   "url": "https://github.com/molotgor/warfare-lore",
   "manifest": "https://raw.githubusercontent.com/molotgor/warfare-lore/master/module.json",
   "download": "https://github.com/molotgor/warfare-lore/archive/refs/heads/master.zip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -44,6 +44,113 @@
       }
     }
   },
+  "packFolders": [
+    {
+      "name": "Warfare Lore",
+      "sorting": "m",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "packs": [
+        "wl-backgrounds",
+        "wl-journals",
+        "wl-warfare-feats",
+        "wl-spells",
+        "wl-actions",
+        "wl-effects",
+        "wl-items"
+      ],
+      "folders": [
+        {
+          "name": "WL - Erudite Warrior",
+          "sorting": "m",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "packs": [
+            "erudite-warrior-class",
+            "erudite-warrior-featsfeatures",
+            "erudite-warrior-eruditions",
+            "erudite-warrior-archetype"
+          ],
+          "folders": []
+        },
+        {
+          "name": "WL - Tactics for All!",
+          "sorting": "m",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "packs": [],
+          "folders": [
+            {
+              "name": "WL - Class Options",
+              "sorting": "m",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "packs": [
+                "wl-finishing-instinct",
+                "wl-apostle",
+                "wl-fighter-feats",
+                "wl-mindshot",
+                "wl-waypoint",
+                "wl-assessor",
+                "wl-battle-reactor",
+                "wl-monk-shifter",
+                "wl-intervention",
+                "wl-outstep",
+                "wl-roughwalker",
+                "wl-surpriser",
+                "wl-goader",
+                "wl-battlemap"
+              ],
+              "folders": []
+            },
+            {
+              "name": "WL - Archetypes",
+              "sorting": "m",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "packs": [
+                "wl-backstabber",
+                "wl-wideswinger",
+                "wl-concealer",
+                "wl-instigator",
+                "wl-parrier",
+                "wl-swordbreaker-defender"
+              ],
+              "folders": []
+            }
+          ]
+        },
+        {
+          "name": "WL - Archetypes",
+          "sorting": "m",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "packs": [
+            "wl-backstabber",
+            "wl-wideswinger",
+            "wl-concealer",
+            "wl-instigator",
+            "wl-parrier",
+            "wl-swordbreaker-defender",
+            "wl-honed-edge"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
   "packs": [
     {
       "name": "erudite-warrior-class",
@@ -159,6 +266,17 @@
       "name": "wl-battle-reactor",
       "label": "WL - Battle Reactor",
       "path": "packs/wl-battle-reactor",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wl-monk-shifter",
+      "label": "WL - Monk and Shifter Feats",
+      "path": "packs/wl-monk-shifter",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
