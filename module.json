@@ -4,7 +4,7 @@
   "url": "https://github.com/molotgor/warfare-lore",
   "manifest": "https://raw.githubusercontent.com/molotgor/warfare-lore/master/module.json",
   "download": "https://github.com/molotgor/warfare-lore/archive/refs/heads/master.zip",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -50,7 +50,7 @@
         "weaponTraits": {
           "multigrip": {
             "label": "Multigrip",
-            "description": "Orcs carry a tradition of making versatile uses of weapons, a practice that has recently been adopted by additional cultures. A weapon with the multigrip trait can be wielded in different orientations, allowing it to serve different purposes while dealing the same damage. Its entry lists a set of weapon traits associated with these different grips. When you draw a multigrip weapon, choose one of the listed traits. The weapon gains this trait until you Release the weapon or Interact to choose a different trait. During this Interact action, you can also change the number of hands you’re holding the weapon with."
+            "description": "Orcs carry a tradition of making versatile uses of weapons, a practice that has recently been adopted by additional cultures. A weapon with the multigrip trait can be wielded in different orientations, allowing it to serve different purposes while dealing the same damage. Its entry lists a set of weapon traits associated with these different grips. When you draw a multigrip weapon, choose one of the listed traits. The weapon gains this trait until you Release the weapon or Interact to choose a different trait. During this Interact action, you can also change the number of hands you’re holding the weapon with. Property runes that require a specific weapon trait can be etched onto a multigrip weapon with the required trait listed under its multigrip entry, but the rune’s effects are suppressed when that trait is not active."
           }
         },
         "baseWeapons": {

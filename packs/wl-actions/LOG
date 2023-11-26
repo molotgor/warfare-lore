@@ -1,15 +1,15 @@
-2023/11/26-13:18:49.784 13c Recovering log #225
-2023/11/26-13:18:49.795 13c Delete type=0 #225
-2023/11/26-13:18:49.795 13c Delete type=3 #223
-2023/11/26-15:38:06.857 8e4 Level-0 table #230: started
-2023/11/26-15:38:06.860 8e4 Level-0 table #230: 1391 bytes OK
-2023/11/26-15:38:06.865 8e4 Delete type=0 #228
-2023/11/26-15:38:06.872 8e4 Manual compaction at level-0 from '!items!4pjozz8iJ09FYIKN' @ 72057594037927935 : 1 .. '!items!wIQfM7mXyYi53CmP' @ 0 : 0; will stop at (end)
-2023/11/26-15:38:06.897 8e4 Manual compaction at level-1 from '!items!4pjozz8iJ09FYIKN' @ 72057594037927935 : 1 .. '!items!wIQfM7mXyYi53CmP' @ 0 : 0; will stop at '!items!Nlp0dst3LKSCFwHH' @ 139 : 1
-2023/11/26-15:38:06.897 8e4 Compacting 1@1 + 1@2 files
-2023/11/26-15:38:06.900 8e4 Generated table #231@1: 13 keys, 11878 bytes
-2023/11/26-15:38:06.901 8e4 Compacted 1@1 + 1@2 files => 11878 bytes
-2023/11/26-15:38:06.905 8e4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/11/26-15:38:06.906 8e4 Delete type=2 #206
-2023/11/26-15:38:06.907 8e4 Delete type=2 #230
-2023/11/26-15:38:06.907 8e4 Manual compaction at level-1 from '!items!Nlp0dst3LKSCFwHH' @ 139 : 1 .. '!items!wIQfM7mXyYi53CmP' @ 0 : 0; will stop at (end)
+2023/11/26-19:32:14.253 38fc Recovering log #229
+2023/11/26-19:32:14.263 38fc Delete type=0 #229
+2023/11/26-19:32:14.263 38fc Delete type=3 #227
+2023/11/26-19:55:44.472 3d08 Level-0 table #235: started
+2023/11/26-19:55:44.478 3d08 Level-0 table #235: 2497 bytes OK
+2023/11/26-19:55:44.485 3d08 Delete type=0 #233
+2023/11/26-19:55:44.492 3d08 Manual compaction at level-0 from '!items!4pjozz8iJ09FYIKN' @ 72057594037927935 : 1 .. '!items!wIQfM7mXyYi53CmP' @ 0 : 0; will stop at (end)
+2023/11/26-19:55:44.504 3d08 Manual compaction at level-1 from '!items!4pjozz8iJ09FYIKN' @ 72057594037927935 : 1 .. '!items!wIQfM7mXyYi53CmP' @ 0 : 0; will stop at '!items!aVQeiRFVGZNpEG9j' @ 140 : 1
+2023/11/26-19:55:44.504 3d08 Compacting 1@1 + 1@2 files
+2023/11/26-19:55:44.511 3d08 Generated table #236@1: 13 keys, 11901 bytes
+2023/11/26-19:55:44.511 3d08 Compacted 1@1 + 1@2 files => 11901 bytes
+2023/11/26-19:55:44.516 3d08 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/26-19:55:44.516 3d08 Delete type=2 #231
+2023/11/26-19:55:44.516 3d08 Delete type=2 #235
+2023/11/26-19:55:44.530 3d08 Manual compaction at level-1 from '!items!aVQeiRFVGZNpEG9j' @ 140 : 1 .. '!items!wIQfM7mXyYi53CmP' @ 0 : 0; will stop at (end)
