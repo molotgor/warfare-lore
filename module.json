@@ -4,7 +4,7 @@
   "url": "https://github.com/molotgor/warfare-lore",
   "manifest": "https://raw.githubusercontent.com/molotgor/warfare-lore/master/module.json",
   "download": "https://github.com/molotgor/warfare-lore/archive/refs/heads/master.zip",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -14,7 +14,9 @@
       {
         "id": "pf2e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "5.9.5"
+        }
       }
     ]
   },
@@ -28,17 +30,47 @@
   "flags": {
     "warfare-lore": {
       "pf2e-homebrew": {
+        "creatureTraits": {
+          "honed-edge": "Honed Edge"
+        },
+        "featTraits": {
+          "erudite-warrior": "Erudite Warrior",
+          "mindshot": "Mindshot",
+          "fallback": {
+            "label": "Fallback",
+            "description": "A feat with this trait adds effects to your fallback outcome."
+          }
+        },
         "spellTraits": {
           "erudition": {
             "label": "Erudition",
             "description": "An erudition is a scholastic method you have reviewed and practiced sufficiently to carry out quickly, usually in the middle of combat."
           }
         },
-        "featTraits": {
-          "erudite-warrior": "Erudite Warrior",
-          "fallback": {
-            "label": "Fallback",
-            "description": "A feat with this trait adds effects to your fallback outcome."
+        "weaponTraits": {
+          "multigrip": {
+            "label": "Multigrip",
+            "description": "Orcs carry a tradition of making versatile uses of weapons, a practice that has recently been adopted by additional cultures. A weapon with the multigrip trait can be wielded in different orientations, allowing it to serve different purposes while dealing the same damage. Its entry lists a set of weapon traits associated with these different grips. When you draw a multigrip weapon, choose one of the listed traits. The weapon gains this trait until you Release the weapon or Interact to choose a different trait. During this Interact action, you can also change the number of hands you’re holding the weapon with."
+          }
+        },
+        "baseWeapons": {
+          "swordbreaker": "Swordbreaker",
+          "claw-sickle": "Claw Sickle",
+          "flick-shears": "Flick-Shears",
+          "ratcheting-clan-dagger": "Ratcheting Clan Dagger",
+          "shredding-spear": "Shredding Spear",
+          "thrashing-spear": "Thrashing Spear",
+          "tri-mace": "Tri-Mace",
+          "whacking-wheel": "Whacking Wheel"
+        },
+        "equipmentTraits": {
+          "ink": {
+            "label": "Ink",
+            "description": "This equipment can be further treated to expand or alter a tattoo’s effects"
+          },
+          "warpaint": {
+            "label": "Warpaint",
+            "description": "A warpaint tattoo is a magical tattoo that lasts for 24 hours, after which it is destroyed and is no longer invested. A warpaint’s activation also destroys the item, leaving behind mundane paint that fades away 1 hour after activation. A creature can have only one warpaint tattoo at a time."
           }
         }
       }
@@ -78,57 +110,29 @@
           "folders": []
         },
         {
-          "name": "WL - Tactics for All!",
+          "name": "WL - Class Options",
           "sorting": "m",
           "ownership": {
             "PLAYER": "OBSERVER",
             "ASSISTANT": "OWNER"
           },
-          "packs": [],
-          "folders": [
-            {
-              "name": "WL - Class Options",
-              "sorting": "m",
-              "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-              },
-              "packs": [
-                "wl-finishing-instinct",
-                "wl-apostle",
-                "wl-fighter-feats",
-                "wl-mindshot",
-                "wl-waypoint",
-                "wl-assessor",
-                "wl-battle-reactor",
-                "wl-monk-shifter",
-                "wl-intervention",
-                "wl-outstep",
-                "wl-roughwalker",
-                "wl-surpriser",
-                "wl-goader",
-                "wl-battlemap"
-              ],
-              "folders": []
-            },
-            {
-              "name": "WL - Archetypes",
-              "sorting": "m",
-              "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-              },
-              "packs": [
-                "wl-backstabber",
-                "wl-wideswinger",
-                "wl-concealer",
-                "wl-instigator",
-                "wl-parrier",
-                "wl-swordbreaker-defender"
-              ],
-              "folders": []
-            }
-          ]
+          "packs": [
+            "wl-finishing-instinct",
+            "wl-apostle",
+            "wl-fighter-feats",
+            "wl-mindshot",
+            "wl-waypoint",
+            "wl-assessor",
+            "wl-battle-reactor",
+            "wl-monk-shifter",
+            "wl-intervention",
+            "wl-outstep",
+            "wl-roughwalker",
+            "wl-surpriser",
+            "wl-goader",
+            "wl-battlemap"
+          ],
+          "folders": []
         },
         {
           "name": "WL - Archetypes",
