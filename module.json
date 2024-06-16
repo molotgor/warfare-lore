@@ -4,21 +4,11 @@
   "url": "https://github.com/molotgor/warfare-lore",
   "manifest": "https://raw.githubusercontent.com/molotgor/warfare-lore/master/module.json",
   "download": "https://github.com/molotgor/warfare-lore/archive/refs/heads/master.zip",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "5.9.5"
-        }
-      }
-    ]
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
   },
   "authors": [
     {
@@ -76,90 +66,11 @@
       }
     }
   },
-  "packFolders": [
-    {
-      "name": "Warfare Lore",
-      "sorting": "m",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "packs": [
-        "wl-backgrounds",
-        "wl-journals",
-        "wl-warfare-feats",
-        "wl-spells",
-        "wl-actions",
-        "wl-effects",
-        "wl-items"
-      ],
-      "folders": [
-        {
-          "name": "WL - Erudite Warrior",
-          "sorting": "m",
-          "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-          },
-          "packs": [
-            "erudite-warrior-class",
-            "erudite-warrior-featsfeatures",
-            "erudite-warrior-eruditions",
-            "erudite-warrior-archetype"
-          ],
-          "folders": []
-        },
-        {
-          "name": "WL - Class Options",
-          "sorting": "m",
-          "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-          },
-          "packs": [
-            "wl-finishing-instinct",
-            "wl-apostle",
-            "wl-fighter-feats",
-            "wl-mindshot",
-            "wl-waypoint",
-            "wl-assessor",
-            "wl-battle-reactor",
-            "wl-monk-shifter",
-            "wl-intervention",
-            "wl-outstep",
-            "wl-roughwalker",
-            "wl-surpriser",
-            "wl-goader",
-            "wl-battlemap"
-          ],
-          "folders": []
-        },
-        {
-          "name": "WL - Archetypes",
-          "sorting": "m",
-          "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-          },
-          "packs": [
-            "wl-backstabber",
-            "wl-wideswinger",
-            "wl-concealer",
-            "wl-instigator",
-            "wl-parrier",
-            "wl-swordbreaker-defender",
-            "wl-honed-edge"
-          ],
-          "folders": []
-        }
-      ]
-    }
-  ],
   "packs": [
     {
-      "name": "erudite-warrior-class",
-      "label": "Erudite Warrior - Class",
-      "path": "packs/erudite-warrior-class",
+      "name": "wl-erudite-warrior",
+      "label": "Erudite Warrior",
+      "path": "packs/erudite-warrior",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -168,9 +79,9 @@
       }
     },
     {
-      "name": "erudite-warrior-featsfeatures",
-      "label": "Erudite Warrior - Feats/Features",
-      "path": "packs/erudite-warrior-featsfeatures",
+      "name": "wl-class-options",
+      "label": "Class Options",
+      "path": "packs/class-options",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -179,9 +90,9 @@
       }
     },
     {
-      "name": "erudite-warrior-eruditions",
-      "label": "Erudite Warrior - Eruditions",
-      "path": "packs/erudite-warrior-eruditions",
+      "name": "wl-archetypes",
+      "label": "Archetypes",
+      "path": "packs/archetypes",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -191,7 +102,7 @@
     },
     {
       "name": "wl-backgrounds",
-      "label": "WL - Backgrounds",
+      "label": "Backgrounds",
       "path": "packs/wl-backgrounds",
       "type": "Item",
       "system": "pf2e",
@@ -201,239 +112,8 @@
       }
     },
     {
-      "name": "wl-finishing-instinct",
-      "label": "WL - Finishing Instinct",
-      "path": "packs/wl-finishing-instinct",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-apostle",
-      "label": "WL - Apostle",
-      "path": "packs/wl-apostle",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-fighter-feats",
-      "label": "WL - Fighter Feats",
-      "path": "packs/wl-fighter-feats",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-mindshot",
-      "label": "WL - Mindshot",
-      "path": "packs/wl-mindshot",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-waypoint",
-      "label": "WL - Waypoint",
-      "path": "packs/wl-waypoint",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-assessor",
-      "label": "WL - Assessor",
-      "path": "packs/wl-assessor",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-battle-reactor",
-      "label": "WL - Battle Reactor",
-      "path": "packs/wl-battle-reactor",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-monk-shifter",
-      "label": "WL - Monk and Shifter Feats",
-      "path": "packs/wl-monk-shifter",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-intervention",
-      "label": "WL - Intervention",
-      "path": "packs/wl-intervention",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-outstep",
-      "label": "WL - Outstep",
-      "path": "packs/wl-outstep",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-roughwalker",
-      "label": "WL - Roughwalker",
-      "path": "packs/wl-roughwalker",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-surpriser",
-      "label": "WL - Surpriser",
-      "path": "packs/wl-surpriser",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-goader",
-      "label": "WL - Goader",
-      "path": "packs/wl-goader",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-battlemap",
-      "label": "WL - Battlemap",
-      "path": "packs/wl-battlemap",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "erudite-warrior-archetype",
-      "label": "Erudite Warrior - Archetype",
-      "path": "packs/erudite-warrior-archetype",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-backstabber",
-      "label": "WL - Backstabber",
-      "path": "packs/wl-backstabber",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-wideswinger",
-      "label": "WL - Wideswinger",
-      "path": "packs/wl-wideswinger",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-concealer",
-      "label": "WL - Concealer",
-      "path": "packs/wl-concealer",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-instigator",
-      "label": "WL - Instigator",
-      "path": "packs/wl-instigator",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-parrier",
-      "label": "WL - Parrier",
-      "path": "packs/wl-parrier",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "wl-swordbreaker-defender",
-      "label": "WL - Swordbreaker Defender",
-      "path": "packs/wl-swordbreaker-defender",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "wl-warfare-feats",
-      "label": "WL - Warfare Feats",
+      "label": "Warfare Feats",
       "path": "packs/wl-warfare-feats",
       "type": "Item",
       "system": "pf2e",
@@ -443,19 +123,8 @@
       }
     },
     {
-      "name": "wl-honed-edge",
-      "label": "WL - Honed Edge",
-      "path": "packs/wl-honed-edge",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "wl-spells",
-      "label": "WL - Spells",
+      "label": "Spells",
       "path": "packs/wl-spells",
       "type": "Item",
       "system": "pf2e",
@@ -466,7 +135,7 @@
     },
     {
       "name": "wl-actions",
-      "label": "WL - Actions",
+      "label": "Actions",
       "path": "packs/wl-actions",
       "type": "Item",
       "system": "pf2e",
@@ -477,7 +146,7 @@
     },
     {
       "name": "wl-journals",
-      "label": "WL - Journals",
+      "label": "Journals",
       "path": "packs/wl-journals",
       "type": "JournalEntry",
       "system": "pf2e",
@@ -488,7 +157,7 @@
     },
     {
       "name": "wl-effects",
-      "label": "WL - Effects",
+      "label": "Effects",
       "path": "packs/wl-effects",
       "type": "Item",
       "system": "pf2e",
@@ -499,7 +168,7 @@
     },
     {
       "name": "wl-items",
-      "label": "WL - Items",
+      "label": "Items",
       "path": "packs/wl-items",
       "type": "Item",
       "system": "pf2e",
@@ -507,6 +176,36 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Brian W. Lane Books",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Warfare Lore",
+          "sorting": "a",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "packs": [
+            "wl-erudite-warrior",
+            "wl-class-options",
+            "wl-archetypes",
+            "wl-backgrounds",
+            "wl-warfare-feats",
+            "wl-spells",
+            "wl-actions",
+            "wl-journals",
+            "wl-effects",
+            "wl-items"
+          ],
+          "folders": []
+        }
+      ]
     }
   ]
 }
