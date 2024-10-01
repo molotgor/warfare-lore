@@ -4,7 +4,7 @@
   "url": "https://github.com/molotgor/warfare-lore",
   "manifest": "https://raw.githubusercontent.com/molotgor/warfare-lore/master/module.json",
   "download": "https://github.com/molotgor/warfare-lore/archive/refs/heads/master.zip",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
